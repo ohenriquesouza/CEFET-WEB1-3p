@@ -1,0 +1,12 @@
+  O site deverá ter as seguintes oáginas:
+
+ - Home;
+ - Deverá haver algum tipo de cadastro; (O cadastro deve ter a possibilidade de: incluir, remover, visualizar e alterar.)
+ - Tela de login;
+ - No mínimo mais três páginas que caibam no tema;
+
+|----------------------|---------------------------|
+                       v
+ A primeira etapa do trabalho deverá ser entregue contendo AEPNAS html;
+ A segunda deverá conter html + CSS;
+ A terceira deverá conter html + CSS + JavaScript;
