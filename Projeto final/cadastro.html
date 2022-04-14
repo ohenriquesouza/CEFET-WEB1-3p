@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+</head>
+<body>
+    <form action="confirmacaoCadastro.html" method="get">
+        <center>
+            <table>
+                <h1>Realize seu cadastro</h1>
+                <tr>
+                    <td><label for="nome_id">Insira seu nome: </label></td>
+                    <td><input type="text" placeholder="Digite seu nome" name="Nome" required></td><br/><br/>
+                </tr>
+                <tr>
+                    <td><label for="cpf_id">Insira seu CPF: </label></td>
+                    <td><input type="text" placeholder="Digite seu CPF" name="CPF" required></td><br/><br/>
+                </tr>
+                <tr>
+                    <td><label for="sexo_id">Sexo: </label></td>
+                    <td><input type="checkbox" name="sexoM">M<input type="checkbox" name="sexoF">F</td>
+                </tr>
+                <tr>
+                    <td><label for="nasc_id">Data de nascimento: </label></td>
+                    <td><input type="date" placeholder="Data de nascimento" name="nasc" required></td><br/><br/>
+                </tr>
+                <tr>
+                    <td><label for="contato_id">Insira seu email: </label></td>
+                    <td><input type="email" placeholder="Digite seu email" name="email" required></td><br/><br/>
+                </tr>
+                <tr>
+                    <td><label for="login_id">Usuário: </label></td>
+                    <td><input type="text" placeholder="Digite o usuário" name="usuario" required></td><br/><br/>
+                </tr>
+                <tr>
+                    <td> <label for="senha_id">Senha: </label></td>
+                <td><input type="password" placeholder="Digite a senha" name="senha" required></td>
+                <tr>
+                    <td></td>
+                    <td>
+                        <button name="entrar" type="submit">Confirmar</button>
+                    </td>
+                </tr>
+            </table>
+        </center>
+    </form>
+</body>
+</html>
